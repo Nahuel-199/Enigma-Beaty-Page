@@ -1,0 +1,100 @@
+.home {
+  width: 100%;
+  height: 620px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../../assets/banner.jpg");
+  position: relative;
+  z-index: 0;
+}
+
+.home::before {
+  position: absolute;
+  content: "";
+  background: -moz-radial-gradient(
+    center,
+    ellipse cover,
+    rgba(255, 255, 255, 0.38) 0%,
+    rgba(255, 255, 255, 0.6) 100%
+  );
+  background: -webkit-radial-gradient(
+    center,
+    ellipse cover,
+    rgba(234, 234, 234, 0.38) 0%,
+    rgba(0, 0, 0, 0.6) 100%
+  );
+  background: radial-gradient(
+    ellipse at center,
+    rgba(255, 255, 255, 0.38) 0%,
+    rgba(0, 0, 0, 0.6) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#61b50808', endColorstr='#99000000',GradientType=1 );
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.title_home {
+  font-size: 5rem;
+  margin-top: 5rem;
+}
+
+.section__subtitle {
+  font-size: 2rem;
+}
+
+.header-btns {
+  display: flex;
+  margin-top: 40px;
+  margin-left: 40%;
+}
+.header-btn {
+  width: 250px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.4rem;
+  background-color: #ff1414;
+  box-shadow: 5px 10px 30px rgba(255, 2, 2, 0.336);
+  border-radius: 5px;
+  color: #ffffff;
+}
+.header-btn:hover {
+  background-color: transparent;
+  transition: all ease 0.5s;
+  color: #ffffff;
+  border: 2px solid #ff1414;
+}
+
+/*=============== BREAKPOINTS ===============*/
+/* For large devices */
+@media screen and (max-width: 992px) {
+  .home__subtitle {
+    padding-left: 3.75rem;
+    margin-bottom: var(--mb-1);
+  }
+
+  .home__subtitle::before {
+    width: 42px;
+    top: 0.8rem;
+  }
+}
+
+/* For medium devices */
+@media screen and (max-width: 768px) {
+ .home{
+  background-position: center;
+ }
+
+  .title_home {
+    font-size: 3rem;
+  }
+
+  .header-btns{
+    margin-left: 19%;
+  }
+}
