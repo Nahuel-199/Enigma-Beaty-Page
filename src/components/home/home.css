@@ -96,4 +96,8 @@
   .header-btns{
     margin-left: 19%;
   }
+
+  .section__subtitle{
+    font-size: 1.3rem;
+  }
 }

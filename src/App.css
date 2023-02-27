@@ -202,6 +202,7 @@ img {
 
   .section__subtitle {
     margin-bottom: var(--mb-3);
+    font-size: var(--h3-font-size) ;
   }
 }
 
