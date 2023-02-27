@@ -11,6 +11,7 @@ import Planes from './components/planes/Planes';
 import ScrollUp from './components/scrollup/ScrollUp';
 import Toggle from './components/toggle/Toggle';
 import { ThemeContext } from "./context";
+import Redes from './components/redes/Redes';
 
 function App() {
   const theme = useContext(ThemeContext);
@@ -27,6 +28,7 @@ function App() {
     <Header />
     <main className='main'>
     <Home />
+    <Redes />
     <About />
     <Parallax />
     <CardTestimonials />

@@ -12,7 +12,7 @@
 .productCard {
   position: relative;
   width: 50vmax;
-  height: 290px;
+  height: 340px;
   text-decoration: none;
   color: rgb(48, 48, 48);
   margin: 2vmax;
@@ -148,6 +148,6 @@
     .productCard .contentBx {
       width: 95%;
       margin-left: 3%;
-      margin-top: 15%;
+      margin-top: 25%;
     }
   }

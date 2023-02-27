@@ -10,7 +10,7 @@ const Planes = () => {
 
   return (
     <section id="planes">
-         <h2 style={{color: darkMode && "#fff"}} className="section__title">Como ellos potenciá tu marketing digital con nuestros planes</h2>
+         <h2 style={{color: darkMode && "#fff"}} className="section__title">Última tecnología en equipamiento médico y de estética.</h2>
                     <div className="products">
                     {Data &&
                       Data.map((product, i) => (

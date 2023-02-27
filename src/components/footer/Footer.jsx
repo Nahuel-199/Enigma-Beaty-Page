@@ -40,7 +40,7 @@ const Footer = () => {
 
         <div className="footer__social">
           <a
-            href="https://www.instagram.com/gabrielnahuel_/"
+            href="https://www.instagram.com/enygmafem/"
             className="footer__social-link"
             target="_blank"
             rel="noreferrer"
@@ -49,21 +49,21 @@ const Footer = () => {
           </a>
 
           <a
-            href="https://github.com/Nahuel-199"
+            href="mailto:enygma@gmail.com"
             className="footer__social-link"
             target="_blank"
             rel="noreferrer"
           >
-            <i class="bx bxl-github"></i>
+            <i class="bx bx-mail-send"></i>
           </a>
 
           <a
-            href="https://www.linkedin.com/in/nahuel-cernadas-3b111a1b7/"
+            href="https://www.facebook.com/profile.php?id=100090458807654&mibextid=ZbWKwL"
             className="footer__social-link"
             target="_blank"
             rel="noreferrer"
           >
-            <i class="bx bxl-linkedin"></i>
+            <i class="bx bxl-facebook-circle"></i>
           </a>
         </div>
 

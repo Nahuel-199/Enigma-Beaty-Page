@@ -32,15 +32,15 @@ const Contact = () => {
 
           <div className="contact__info">
             <div className="contact__card">
-              <i className="bx bx-mail-send contact__card-icon"></i>
+              <i className="bx bxl-instagram contact__card-icon"></i>
 
               <h3 className="contact__card-title">Email</h3>
               <span style={{color: darkMode && "rgb(34, 34, 34)"}} className="contact__card-data">
-                enigma@gmail.com
+                enygmafem
               </span>
 
               <a 
-              href="mailto:digitalagencyjg@gmail.com" 
+              href="https://www.instagram.com/enygmafem/" 
               target="_blank" 
               rel="noreferrer" 
               className="contact__button"
@@ -54,9 +54,9 @@ const Contact = () => {
               <i className="bx bxl-whatsapp contact__card-icon"></i>
 
               <h3 className="contact__card-title">Whatsapp</h3>
-              <span style={{color: darkMode && "rgb(34, 34, 34)"}} className="contact__card-data">112335-9620</span>
+              <span style={{color: darkMode && "rgb(34, 34, 34)"}} className="contact__card-data">2216548939</span>
 
-              <a href="https://walink.co/332257" 
+              <a href="https://walink.co/62e664" 
               target="_blank" 
               rel="noreferrer" 
               className="contact__button"
@@ -67,12 +67,12 @@ const Contact = () => {
             </div>
 
             <div className="contact__card">
-              <i className="bx bxl-discord-alt contact__card-icon"></i>
+              <i className="bx bxl-facebook-circle contact__card-icon"></i>
 
-              <h3 className="contact__card-title">Discord</h3>
-              <span style={{color: darkMode && "rgb(34, 34, 34)"}} className="contact__card-data">enigma</span>
+              <h3 className="contact__card-title">Facebook</h3>
+              <span style={{color: darkMode && "rgb(34, 34, 34)"}} className="contact__card-data">enygma</span>
 
-              <a href="https://discord.com/"  
+              <a href="https://www.facebook.com/profile.php?id=100090458807654&mibextid=ZbWKwL"  
               target="_blank" 
               rel="noreferrer" 
               className="contact__button"

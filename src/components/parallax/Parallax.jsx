@@ -7,7 +7,7 @@ const Parallax = () => {
       <section className="parallax-corte page-section">
         <div className="container text-center py-5">
           <h3 className="text-white titulos-seccion mt-3">
-            <b>Animate al cambio con Enigma y nota las diferencias</b>
+            <b>Animate al cambio con Enygma y nota las diferencias</b>
           </h3>
           <button className="button2">Contactanos</button>
         </div>

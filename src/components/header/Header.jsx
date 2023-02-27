@@ -16,7 +16,7 @@ const Header = () => {
     <header className="header">
       <nav className="nav container">
         <a href="#home" className="nav__logo">
-          Belleza Interior
+          Enygma Beauty Services
         </a>
 
         <div className={Toggle ? "nav__menu show-menu" : "nav__menu"}>
@@ -81,7 +81,7 @@ const Header = () => {
                 activeNav === "#contact" ? "nav__link active-link"
                 : "nav__link"
               }>
-                <i className="uil uil-message nav__icon"></i>
+                <i className="bx bx-mail-send nav__icon"></i>
                 Contancto
               </a>
             </li>

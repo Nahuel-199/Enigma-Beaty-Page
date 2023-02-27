@@ -5,7 +5,7 @@ import Image3 from "../../assets/kit3.png";
 export const Data = [
   {
     id: 1,
-    image: Image1,
+    image: Image3,
     title: "Enigma Body health",
     description:
       "Gracias a la acción de su tecnología X-Orbital y a su nuevo sensor de temperatura estimula de manera efectiva la regeneración y el rejuvenecimiento en los tejidos vulvovaginales.",
@@ -19,9 +19,9 @@ export const Data = [
   },
   {
     id: 3,
-    image: Image3,
+    image: Image1,
     title: "Enygma kit",
     description:
-      "Gestión de Google Ads, Redes Sociales e Email Marketing, diseño de piezas publicitarias, gestión diaria, reporte mensual",
+      "Gracias a la acción de su tecnología X-Orbital y a su nuevo sensor de temperatura estimula de manera efectiva la regeneración y el rejuvenecimiento en los tejidos vulvovaginales.",
   },
 ];

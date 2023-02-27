@@ -25,7 +25,7 @@ const About = () => {
             sensibilidad y estrechez normal de las paredes vaginales y a la
             vulva
           </p>
-          <p className="about__description" style={{color: "black"}}>
+          <p className="about__description"style={{ color: darkMode && "#fff" }}>
             ¿Cuáles son los beneficios que este tratamiento brinda, más allá de
             lo estético?
           </p>
