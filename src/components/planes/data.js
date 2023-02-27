@@ -22,6 +22,6 @@ export const Data = [
     image: Image1,
     title: "Enygma kit",
     description:
-      "Gracias a la acción de su tecnología X-Orbital y a su nuevo sensor de temperatura estimula de manera efectiva la regeneración y el rejuvenecimiento en los tejidos vulvovaginales.",
+      "Cuenta con una estación de desinfección y esterilización, que garantiza la máxima higienización de las puntas, sin riesgo de contaminación, perfectamente limpia y libre de bacterias.",
   },
 ];
