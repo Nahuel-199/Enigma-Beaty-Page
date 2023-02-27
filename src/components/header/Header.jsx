@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import logo from "../../assets/logopng3.png";
 import "./header.css";
 
 const Header = () => {
@@ -16,9 +17,9 @@ const Header = () => {
     <header className="header">
       <nav className="nav container">
         <a href="#home" className="nav__logo">
-          Enygma Beauty Services
+         Enygma Fem Beauty and Health
         </a>
-
+        <img src={logo} alt="img" className="img-logo-header" />
         <div className={Toggle ? "nav__menu show-menu" : "nav__menu"}>
           <ul className="nav__list grid">
             <li className="nav__item">

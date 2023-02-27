@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import { ThemeContext } from "../../context";
-import mq from "../../assets/florpng.png";
+import mq from "../../assets/fotoP.jpeg";
 import "./about.css";
 
 const About = () => {

@@ -1,4 +1,5 @@
 import React from "react";
+import logo from "../../assets/logopng3.png";
 import "./footer.css";
 
 const Footer = () => {
@@ -6,6 +7,7 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer__container container">
         <h1 className="footer__title">Enigma Beauty Services</h1>
+        <img src={logo} alt="logo" className="logo-footer" />
         <ul className="footer__list">
           <li>
             <a href="#about" className="footer__link">

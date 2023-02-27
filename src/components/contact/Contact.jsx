@@ -34,7 +34,7 @@ const Contact = () => {
             <div className="contact__card">
               <i className="bx bxl-instagram contact__card-icon"></i>
 
-              <h3 className="contact__card-title">Email</h3>
+              <h3 className="contact__card-title">Instagram</h3>
               <span style={{color: darkMode && "rgb(34, 34, 34)"}} className="contact__card-data">
                 enygmafem
               </span>

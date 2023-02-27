@@ -7,7 +7,7 @@ export const Data = [
         id:1,
         image: Image1,
         title: "¿Cómo funciona Enygma?",
-        description:" Es un aparato que trabaja nivel estético y funcional de la región íntima femenina para el síndrome genitourinario. Se utiliza una frecuencia electromagnética orbital que crea un calentamiento interno controlado que produce un efecto de tensado, estimulando la síntesis de las nuevas fibras de colágeno. Esto induce varios efectos biológicos que mejoran la apariencia de la vulva, restauran la elasticidad vaginal."
+        description:" Trabaja nivel estético y funcional de la región íntima femenina para el síndrome genitourinario. Se utiliza una frecuencia electromagnética orbital que crea un calentamiento interno controlado que produce un efecto de tensado, estimulando la síntesis de las nuevas fibras de colágeno. Esto induce varios efectos biológicos que mejoran la apariencia de la vulva, restauran la elasticidad vaginal."
     },
     {
         id:2,
