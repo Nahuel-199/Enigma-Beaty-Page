@@ -17,7 +17,7 @@ const Header = () => {
     <header className="header">
       <nav className="nav container">
         <a href="#home" className="nav__logo">
-         Enygma Fem Beauty and Health
+         Enygma Fem
         </a>
         <img src={logo} alt="img" className="img-logo-header" />
         <div className={Toggle ? "nav__menu show-menu" : "nav__menu"}>

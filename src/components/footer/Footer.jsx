@@ -1,12 +1,12 @@
 import React from "react";
-import logo from "../../assets/logopng3.png";
+import logo from "../../assets/logopng2.png";
 import "./footer.css";
 
 const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer__container container">
-        <h1 className="footer__title">Enigma Beauty Services</h1>
+       {/*  <h1 className="footer__title">Enigma Beauty Services</h1> */}
         <img src={logo} alt="logo" className="logo-footer" />
         <ul className="footer__list">
           <li>

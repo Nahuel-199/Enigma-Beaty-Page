@@ -8,11 +8,12 @@
 }
 
 .logo-footer{
-    width: 50px;
-    position: absolute;
+    width: 190px;
+    /* position: absolute; */
     right: 30%;
-    margin-top: -75px;
-    height: 40px;
+    margin-top: -34px;
+    margin-left: 40%;
+    height: 200px;
 }
 
 .footer__title,
@@ -45,7 +46,7 @@
 .footer__social-link {
     background-color: var(--title-color);
     color: var(--container-color);
-    font-size: 1.125rem;
+    font-size: 1.8rem;
     padding: 0.4rem;
     border-radius: 0.5rem;
     display: inline-flex;
@@ -72,10 +73,11 @@
     }
 
     .logo-footer{
-        margin-top: -35px;
+        margin-top: -38px;
+        margin-left: 84px;
         right: 185px;
-        width: 45px;
-        height: 35px;
+        width: 140px;
+        height: 150px;
     }
 
    .footer__social-link {

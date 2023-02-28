@@ -37,8 +37,15 @@
 }
 
 .title_home {
-  font-size: 5rem;
+  font-size: 3rem;
   margin-top: 5rem;
+}
+
+.logo-home{
+  width: 220px;
+  display: flex;
+  margin-left: 40%;
+  margin-top: -40px;
 }
 
 .section__subtitle {
@@ -47,7 +54,7 @@
 
 .header-btns {
   display: flex;
-  margin-top: 40px;
+  margin-top: 0px;
   margin-left: 40%;
 }
 .header-btn {
@@ -57,7 +64,7 @@
   justify-content: center;
   align-items: center;
   font-size: 1.4rem;
-  background-color: #ff1414;
+  background-color: #e0bbcc;
   box-shadow: 5px 10px 30px rgba(255, 2, 2, 0.336);
   border-radius: 5px;
   color: #ffffff;
@@ -66,7 +73,7 @@
   background-color: transparent;
   transition: all ease 0.5s;
   color: #ffffff;
-  border: 2px solid #ff1414;
+  border: 2px solid #fb5da6;
 }
 
 /*=============== BREAKPOINTS ===============*/
@@ -90,11 +97,17 @@
  }
 
   .title_home {
-    font-size: 3rem;
+    font-size: 2rem;
+  }
+
+  .logo-home{
+    margin-left: 20%;
+    margin-top: -15px;
   }
 
   .header-btns{
-    margin-left: 19%;
+    margin-left: 17%;
+    margin-top: -40px;
   }
 
   .section__subtitle{
