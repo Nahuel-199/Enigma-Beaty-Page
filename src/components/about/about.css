@@ -10,6 +10,14 @@
     justify-self: center;
 }
 
+/* .about__img{
+    width: max-content;
+    max-width: 550px;
+    height: auto;
+    border-radius: 1.5rem;
+    justify-self: center;
+} */
+
 .about__info {
     grid-template-columns: repeat(3, 140px);
     gap: 0.5rem;
