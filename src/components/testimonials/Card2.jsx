@@ -1,10 +1,6 @@
 import React, { useContext } from 'react';
 import { ThemeContext } from "../../context";
 import { Data } from "./Data2";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Pagination } from "swiper";
-import "swiper/css";
-import "swiper/css/pagination";
 import "./card2.css";
 
 const Card2 = () => {
@@ -16,33 +12,16 @@ const Card2 = () => {
         <h2 style={{color: darkMode && "#fff"}} className="section__title">
          Efectos
           </h2>
-        <Swiper 
-        className="card2__container"
-        loop={true}
-        grabCursor={true}
-        spaceBetween={24}
-        pagination={{
-          dynamicBullets: true,
-        }}
-        breakpoints={{
-          576: {
-            slidesPerView: 2,
-          },
-          768: {
-            slidesPerView: 2,
-            spaceBetween: 48,
-          },
-        }}
-        modules={[Pagination]}
-        >
+        <div 
+        className="card2__container">
              {Data.map(({ id, image }) => {
                 return (
-                    <SwiperSlide className="card2__card" key={id}>
+                    <div className="card2__card" key={id}>
                         <img src={image} alt="imageTestimonial" className='card2__img' />
-                    </SwiperSlide>
+                    </div>
                 );
              })}
-        </Swiper>
+        </div>
         </section>
   )
 }
