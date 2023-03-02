@@ -5,6 +5,15 @@
     padding-bottom: 3rem;
 }
 
+.contact-sub {
+    display: block;
+    font-size: 1rem;
+    margin-left: 46%;
+    line-height: 2;
+    margin-bottom: 2rem;
+    width: 25%;
+  }
+
 .contact__title {
     text-align: center;
     font-size: var(--h3-font-size);
@@ -133,6 +142,9 @@
     .contact__info {
         grid-template-columns: 1fr;
     }
+    .contact-sub {
+        margin-left: 37%;
+      }
 
     .contact__form {
         width: 100%;

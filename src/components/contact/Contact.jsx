@@ -24,7 +24,7 @@ const Contact = () => {
   return (
     <section className="contact section" id="contact">
       <h2 style={{color: darkMode && "#fff"}} className="section__title">Ponerse en contacto</h2>
-      <span className="section__subtitle">Contáctanos</span>
+      <span className="contact-sub">Contáctanos</span>
 
       <div className="contact__container container grid">
         <div className="contact_content">

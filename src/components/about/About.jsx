@@ -1,7 +1,6 @@
 import React, { useContext } from "react";
 import { ThemeContext } from "../../context";
 import mq from "../../assets/fotoP.jpeg";
-import mq2 from "../../assets/parallax2.jpeg";
 import "./about.css";
 
 const About = () => {
@@ -13,7 +12,7 @@ const About = () => {
       <h2 style={{ color: darkMode && "#fff" }} className="section__title">
         Rejuvenecimiento Íntimo No Invasivo
       </h2>
-      <span className="section__subtitle">
+      <span className="about-sub">
         ¿A qué se conoce como rejuvenecimiento vaginal?
       </span>
       <div className="about__container container grid">
@@ -26,26 +25,15 @@ const About = () => {
             sensibilidad y estrechez normal de las paredes vaginales y a la
             vulva
           </p>
-        </div>
-      </div>
-
-      <span className="section__subtitle">
-      ¿Cuáles son los beneficios que este tratamiento brinda, más allá de
-            lo estético?
-      </span>
-      <div className="about__container container grid">
-        <img src={mq2} alt="about" className="about__img" />
-        <div className="about__data">
-          <p className="about__description">
-          Una de sus cualidades más importantes es la de revertir la
-            incontinencia urinaria de esfuerzo de bajo grado, es decir, la
-            pérdida de orina que ocurre al toser, reírse, estornudar o saltar. A
-            su vez, mejora los síntomas genitourinarios frecuentes en
-            menopausia: adelgazamiento, sequedad e inflamación de las paredes
-            vaginales por la disminución de estrógenos. También aumenta la
-            lubricación, brinda mayor sensibilidad en la vulva y disminuye la
-            dispareunia (dolor durante el coito).
-            vulva
+          <p className="about__description2">
+         En tan sólo 2 sesiones conseguimos
+      </p>
+      <p className="about__description">
+             Solucionar la incontinencia urinaria de esfuerzo,
+             Incrementar la sensibilidad y el placer,
+             Recuperar la elasticidad interna y la lubricación natural,
+             Mejorar notablemente la disfunción sexual,
+             Mejorar estéticamente el aspecto, devolviendo la confianza y la autoestima
           </p>
         </div>
       </div>

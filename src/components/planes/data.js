@@ -1,5 +1,4 @@
 import Image1 from "../../assets/kit1.png";
-import Image2 from "../../assets/kit2.png";
 import Image3 from "../../assets/kit3.png";
 
 export const Data = [
@@ -12,13 +11,6 @@ export const Data = [
   },
   {
     id: 2,
-    image: Image2,
-    title: "Enygma",
-    description:
-      "Hiperlaxitud Vaginal, incontinencia Urinaria, disfunción Sexual, revierte los síntomas asociados a la menopausia (sequedad vaginal).",
-  },
-  {
-    id: 3,
     image: Image1,
     title: "Enygma kit",
     description:

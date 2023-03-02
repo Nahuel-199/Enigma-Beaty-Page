@@ -12,6 +12,8 @@ import ScrollUp from './components/scrollup/ScrollUp';
 import Toggle from './components/toggle/Toggle';
 import { ThemeContext } from "./context";
 import Redes from './components/redes/Redes';
+import Card2 from './components/testimonials/Card2';
+import Card3 from './components/testimonials/card3';
 
 function App() {
   const theme = useContext(ThemeContext);
@@ -32,6 +34,8 @@ function App() {
     <About />
     <Parallax />
     <CardTestimonials />
+    <Card2 />
+    <Card3 />
     <Planes />
     <Contact />
     </main>
