@@ -39,8 +39,6 @@ const Card2 = () => {
                 return (
                     <SwiperSlide className="card2__card" key={id}>
                         <img src={image} alt="imageTestimonial" className='card2__img' />
-                      {/*   <h3 className="testimonial__name">{title}</h3>
-                        <p style={{color: darkMode && "#676767"}} className="testimonial__description">{description}</p> */}
                     </SwiperSlide>
                 );
              })}

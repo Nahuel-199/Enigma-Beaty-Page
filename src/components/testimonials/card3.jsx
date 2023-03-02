@@ -5,7 +5,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper";
 import "swiper/css";
 import "swiper/css/pagination";
-import "./card2.css";
+import "./card3.css";
 
 const Card3 = () => {
   const theme = useContext(ThemeContext);
@@ -16,8 +16,8 @@ const Card3 = () => {
         <h2 style={{color: darkMode && "#fff"}} className="section__title">
            Experiencia Clínica
           </h2>
-        <Swiper 
-        className="card3__container"
+          <Swiper 
+        className="card2__container"
         loop={true}
         grabCursor={true}
         spaceBetween={24}
@@ -37,10 +37,8 @@ const Card3 = () => {
         >
              {Data.map(({ id, image }) => {
                 return (
-                    <SwiperSlide className="card3__card" key={id}>
+                    <SwiperSlide className="card2__card" key={id}>
                         <img src={image} alt="imageTestimonial" className='card3__img' />
-                      {/*   <h3 className="testimonial__name">{title}</h3>
-                        <p style={{color: darkMode && "#676767"}} className="testimonial__description">{description}</p> */}
                     </SwiperSlide>
                 );
              })}
