@@ -1,10 +1,10 @@
 import React, { useContext } from 'react';
 import "./App.css";
 import About from './components/about/About';
-import Contact from './components/contact/Contact';
+/* import Contact from './components/contact/Contact'; */
 import CardTestimonials from './components/testimonials/CardTestimonials';
 import Footer from './components/footer/Footer';
-import Header from './components/header/Header';
+/* import Header from './components/header/Header'; */
 import Home from './components/home/Home';
 import Parallax from './components/parallax/Parallax';
 import Planes from './components/planes/Planes';
@@ -27,7 +27,7 @@ function App() {
     }}
     >
     <Toggle />
-    <Header />
+{/*     <Header /> */}
     <main className='main'>
     <Home />
     <Redes />
@@ -37,7 +37,7 @@ function App() {
     <Card2 />
     <Card3 />
     <Planes />
-    <Contact />
+   {/*  <Contact /> */}
     </main>
 
     <Footer />

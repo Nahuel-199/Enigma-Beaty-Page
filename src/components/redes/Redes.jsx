@@ -6,7 +6,7 @@ const Redes = () => {
   return (
     <div className='container__redes'>
         <div className='icon__container__redes'>
-          <a target="_blank" rel="noreferrer" href="https://walink.co/62e664">
+          <a target="_blank" rel="noreferrer" href="https://walink.co/8b9b36">
         <BsWhatsapp className='icon__redes' />
         </a>
         </div>

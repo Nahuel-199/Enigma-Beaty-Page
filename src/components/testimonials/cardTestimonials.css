@@ -1,5 +1,6 @@
 .testimonial__container {
     width: 750px;
+    margin-left: 12%;
 }
 
 .testimonial__card{
@@ -33,6 +34,7 @@
 @media screen and (max-width: 992px) {
    .testimonial__container {
     width: initial;
+    margin-left: 0%;
    }
 
    .testimonial__card {

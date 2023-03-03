@@ -8,37 +8,6 @@ const Footer = () => {
       <div className="footer__container container">
        {/*  <h1 className="footer__title">Enigma Beauty Services</h1> */}
         <img src={logo} alt="logo" className="logo-footer" />
-        <ul className="footer__list">
-          <li>
-            <a href="#about" className="footer__link">
-             Inicio
-            </a>
-          </li>
-
-          <li>
-            <a href="#Portfolio" className="footer__link">
-            Que hacemos
-            </a>
-          </li>
-
-          <li>
-            <a href="#Skills" className="footer__link">
-             Servicios
-            </a>
-          </li>
-
-          <li>
-            <a href="#Skills" className="footer__link">
-             Nosotros
-            </a>
-          </li>
-
-          <li>
-            <a href="#Skills" className="footer__link">
-              Contacto
-            </a>
-          </li>
-        </ul>
 
         <div className="footer__social">
           <a
@@ -47,16 +16,18 @@ const Footer = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <i class="bx bxl-instagram"></i>
+            <i class="bx bxl-instagram" style={{animationDelay: "2s",borderRadius: "40px",color: "white", background: "radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%)",
+            boxShadow: "0px 3px 10px rgba(0,0,0,.25)"
+           }}></i>
           </a>
 
           <a
-            href="mailto:enygma@gmail.com"
+            href="https://walink.co/8b9b36"
             className="footer__social-link"
             target="_blank"
             rel="noreferrer"
           >
-            <i class="bx bx-mail-send"></i>
+            <i class="bx bxl-whatsapp" style={{color: "green"}}></i>
           </a>
 
           <a
@@ -65,13 +36,9 @@ const Footer = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <i class="bx bxl-facebook-circle"></i>
+            <i class="bx bxl-facebook-circle" style={{color: "#00008c",background: "white"}}></i>
           </a>
         </div>
-
-        <span className="footer__copy">
-            &#169; 2020 Enigma Beaty Page
-        </span>
       </div>
     </footer>
   );

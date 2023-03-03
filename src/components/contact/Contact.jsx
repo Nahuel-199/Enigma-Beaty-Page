@@ -13,7 +13,7 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        "service_mx18ogi",
+        "service_nal809q",
         "template_sgcf7pt",
         form.current,
         "user_Bjg02JRPajM33GafR7bct"
@@ -24,7 +24,6 @@ const Contact = () => {
   return (
     <section className="contact section" id="contact">
       <h2 style={{color: darkMode && "#fff"}} className="section__title">Ponerse en contacto</h2>
-      <span className="contact-sub">Contáctanos</span>
 
       <div className="contact__container container grid">
         <div className="contact_content">
